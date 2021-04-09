@@ -84,7 +84,23 @@ body {
 }
 
 .back-content h2, p {
-    padding: 2rem 1rem 2rem 1rem;; 
+    padding: 2rem 1rem 2rem 1rem; 
+}
+
+.back-content h2 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .back-content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .back-content h2 {
+        font-size: 1.5rem;
+    }
 }
 
 .back-content p {
